@@ -36,9 +36,10 @@ Claude is the primary executor on this project — planning, coding, brainstormi
 Push back on early decisions that would lock in direction before the concept is solid. Help maintain alignment between collaborators by summarizing decisions clearly.
 
 ### Folder Structure
-- `Daily/` — daily log entries (one file per date: `YYYY-MM-DD.md`)
+- `Logs/` — all log-type records; subfolders by type
+  - `Logs/daily/` — daily entries (one file per date: `YYYY-MM-DD.md`)
+  - `Logs/meetings/` — meeting notes
 - `Skills/` — shared workflow instructions; read the relevant skill file before executing a workflow
-- `Intelligence/` — deeper context layers; `Intelligence/meetings/` for meeting notes
 
 ### Skills
 When a user triggers a workflow, read the corresponding file in `Skills/` and follow its instructions.

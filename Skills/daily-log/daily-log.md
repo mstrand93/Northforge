@@ -1,10 +1,10 @@
 ## Overview
 
-Creates a daily note summarising what was done in the Northforge vault that day. Notes are saved to `Daily/YYYY-MM-DD.md`. Meeting notes are stored separately in `Intelligence/meetings/`.
+Creates a daily note summarising what was done in the Northforge vault that day. Notes are saved to `Logs/daily/YYYY-MM-DD.md`. Meeting notes are stored separately in `Logs/meetings/`.
 
 ## Reference Files
 
-The `reference/` folder is currently empty. Add reference files here as the skill evolves.
+- `Context/Document Formatting Preferences.md` — formatting rules that apply to all documents in this repo; read this before writing the daily note.
 
 ## Installation
 
@@ -19,19 +19,18 @@ description: Creates a daily note in the Northforge repo summarising what was wo
 ## Process
 
 1. Default to today's date unless another date is specified.
-2. Run the following to identify what changed today:
+2. Read `Context/Document Formatting Preferences.md` and apply those rules when writing the note.
+3. Run the following to identify what changed today:
    - `git log --since="midnight" --oneline --stat`
    - `git diff --stat HEAD`
    - `git status --short`
-3. Summarise the changes into a brief, factual daily note.
-4. Create or overwrite `Daily/YYYY-MM-DD.md` using the template below.
-5. Do not include meeting notes — those go in `Intelligence/meetings/YYYY-MM-DD-topic.md`.
+4. Check if `Logs/daily/YYYY-MM-DD.md` already exists.
+   - If it **does not exist**: create it using the template below.
+   - If it **already exists**: read the existing content, then append only information not already captured. Do not rewrite or duplicate existing entries.
+5. Do not include meeting notes — those go in `Logs/meetings/YYYY-MM-DD-topic.md`.
 
 ## Template
 
----
-date: YYYY-MM-DD
----
 ## Summary
 
 -
@@ -44,4 +43,5 @@ date: YYYY-MM-DD
 - Derive content from git history; do not invent or assume work that isn't reflected there
 - If nothing was committed today, note that and include any uncommitted/untracked changes
 - Do not duplicate content that belongs in a meeting note
+- Never overwrite an existing daily note — only append new information
 ```

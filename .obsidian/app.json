@@ -1,3 +1,6 @@
 {
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "attachmentFolderPath": "Resources/images",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "+"
 }
