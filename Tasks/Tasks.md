@@ -1,0 +1,2 @@
+- Setup GIT community plugin
+

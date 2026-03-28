@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "just a test.md",
+                "file": "Skills/daily-log/daily-log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "just a test"
+              "title": "daily-log"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "just a test.md",
+                "file": "Getting Started/Git Collaboration Workflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for just a test"
+              "title": "Backlinks for Git Collaboration Workflow"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "just a test.md",
+                "file": "Getting Started/Git Collaboration Workflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from just a test"
+              "title": "Outgoing links from Git Collaboration Workflow"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "just a test.md",
+                "file": "Getting Started/Git Collaboration Workflow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of just a test"
+              "title": "Outline of Git Collaboration Workflow"
             }
           }
         ]
@@ -186,7 +186,36 @@
   },
   "active": "780c3810544c44f8",
   "lastOpenFiles": [
-    "Northforge Github Token.md",
-    "just a test.md"
+    "Skills/Skills.md",
+    "claude.md",
+    "Skills/daily-log/daily-log.md",
+    "Skills/skill-builder/reference/skill-building-framework.md",
+    "Skills/skill-builder/reference/reference.md",
+    "Skills/skill-builder/reference",
+    "Skills/skill-builder/skill-builder.md",
+    "Skills/skill-builder",
+    "Skills/daily-log/reference/reference.md",
+    "Skills/daily-log/reference",
+    "Skills/daily-log",
+    "Resources/getting started/How to Build Skills.md",
+    "Skills/skill-builder.md",
+    "Context/Document Formatting Preferences.md",
+    "Resources/getting started/getting started.md",
+    "Resources/Getting Started/getting started.md",
+    "Tasks/Tasks.md",
+    "Skills/_index.md",
+    "Skills/daily-log.md",
+    "Resources/templates",
+    "Resources/prompts",
+    "Resources/archive",
+    "Intelligence/Meetings",
+    "Intelligence",
+    "Projects/game/game.md",
+    "Daily",
+    "Projects/Game/game.md",
+    "Resources/getting started/Git Collaboration Workflow.md",
+    "Resources/getting started/Setting up GitHub.md",
+    "just a test.md",
+    "Northforge Github Token.md"
   ]
 }
