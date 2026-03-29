@@ -1,12 +1,12 @@
 ## What Skills Are
 
-Skills are instruction packages for AI agents — a way to encode a specific process so any agent can execute it consistently. Think of a skill as an SOP that an AI can follow.
+Skills are instruction packages for AI agents: a way to encode a specific process so any agent can execute it consistently. Think of a skill as an SOP that an AI can follow.
 
 At the core is a `skill.md` file: the process instruction. Around it, you can optionally add:
-- **Text reference files** — style guides, example outputs, background context, ICP descriptions
-- **MCP instruction files** — how to use a specific tool for this task
-- **Assets** — images, presentations, or other non-text files as output examples
-- **Code scripts** — Python or JS functions for API calls or external actions
+- **Text reference files**: style guides, example outputs, background context, ICP descriptions
+- **MCP instruction files**: how to use a specific tool for this task
+- **Assets**: images, presentations, or other non-text files as output examples
+- **Code scripts**: Python or JS functions for API calls or external actions
 
 Skills are loaded progressively: the agent only stores the name and description in memory. The full `skill.md` loads when the skill is triggered, and reference files only load when the process calls for them. This allows one agent to have access to thousands of skills without context overload.
 
@@ -14,7 +14,7 @@ Skills are loaded progressively: the agent only stores the name and description 
 
 ## Before You Build: Preparation
 
-This is the step most people skip — and the one with the biggest impact.
+This is the step most people skip, and the one with the biggest impact.
 
 **1. Map the process**
 Write out the ideal step-by-step process to get a good outcome. Don't prompt yet. Think first.
@@ -55,15 +55,15 @@ List any MCPs, APIs, or software the skill needs. If there's a specific workflow
 ### 4. Step-by-step process
 This is the most important part. For each step, define:
 - **What to do**
-- **When to involve the human** — Claude Code supports checkboxes, open fields, single select, etc. Think of this as UX design
+- **When to involve the human**: Claude Code supports checkboxes, open fields, single select, etc. Think of this as UX design
 - **What reference files or context to use** at this step
-- **What output to expect** — where possible, ask for multiple variations to choose from rather than a single output
+- **What output to expect**: where possible, ask for multiple variations to choose from rather than a single output
 
 ### 5. Rules
 Predict what could go wrong and write it as a rule. This section grows over time as you catch edge cases.
 
 Two things to always reinforce in rules:
-- Make reference files **obligatory** steps, not optional — agents tend to skip them otherwise
+- Make reference files **obligatory** steps, not optional: agents tend to skip them otherwise
 - Reinforce the multiple-variations-with-human-in-the-loop pattern
 
 ### 6. Self-improvement instructions (optional but powerful)
@@ -95,7 +95,7 @@ Once a skill is performing well:
 - Share the zip directly, or deploy via GitHub
 - The recipient imports it through their settings
 
-For teams: skills can be bundled into **plugins** — packages that include multiple skills, commands, agent configurations, and connectors. Plugins can be versioned and distributed across departments.
+For teams: skills can be bundled into **plugins**, packages that include multiple skills, commands, agent configurations, and connectors. Plugins can be versioned and distributed across departments.
 
 ---
 

@@ -2,37 +2,37 @@
 
 This note covers the day-to-day GitHub workflow for collaborating on Unity and Obsidian projects. For initial setup, see [[Setting up GitHub]].
 
-The same workflow applies to both repositories — Unity and Obsidian.
+The same workflow applies to both repositories: Unity and Obsidian.
 
 ---
 
 ## The basic loop
 
-1. **Pull** — fetch any changes others have pushed before you start
-2. **Work** — make your changes in Unity or Obsidian
-3. **Save** — save the file/scene in Unity; Obsidian auto-saves
-4. **Commit** — label what you changed
-5. **Push** — upload your changes to GitHub
+1. **Pull**: fetch any changes others have pushed before you start
+2. **Work**: make your changes in Unity or Obsidian
+3. **Save**: save the file/scene in Unity; Obsidian auto-saves
+4. **Commit**: label what you changed
+5. **Push**: upload your changes to GitHub
 
 ---
 
 ## Step by step
 
-### 1 — Pull before you start
+### 1: Pull before you start
 
 Open GitHub Desktop, select the relevant repository, and click **Fetch origin**, then **Pull origin** if there are new changes. Always do this before opening Unity or editing notes.
 
-### 2 — Make your changes
+### 2: Make your changes
 
 Work as normal in Unity or Obsidian.
 
-### 3 — Commit your changes
+### 3: Commit your changes
 
-1. Open GitHub Desktop — you'll see all modified files listed
+1. Open GitHub Desktop: you'll see all modified files listed
 2. Write a short commit message describing what you changed (e.g. *Add player movement script* or *Update session notes*)
 3. Click **Commit to main** (or your branch name)
 
-### 4 — Push your changes
+### 4: Push your changes
 
 Click **Push origin**. This uploads your committed changes to GitHub so others can see and pull them.
 
@@ -48,7 +48,7 @@ Branches let you work on a feature or fix in isolation without touching the main
 2. Name it something descriptive (e.g. `player-combat`, `ui-redesign`)
 3. Click **Create Branch**
 
-Work and commit as normal — changes stay on your branch.
+Work and commit as normal; changes stay on your branch.
 
 ### Publish the branch
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logs/daily/2026-03-28.md",
+                "file": "Context/Document Formatting Preferences.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-28"
+              "title": "Document Formatting Preferences"
             }
           }
         ]
@@ -186,10 +186,10 @@
   },
   "active": "780c3810544c44f8",
   "lastOpenFiles": [
+    "Logs/daily/2026-03-28.md",
     "Skills/daily-log/daily-log.md",
     "Daily/2026-03-28.md",
     "Logs/meetings",
-    "Logs/daily/2026-03-28.md",
     "Logs/daily",
     "+",
     "Resources/images",

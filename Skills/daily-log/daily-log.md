@@ -4,7 +4,7 @@ Creates a daily note/ summarising what was done in the Northforge vault that day
 
 ## Reference Files
 
-- `Context/Document Formatting Preferences.md` — formatting rules that apply to all documents in this repo; read this before writing the daily note.
+- `Context/Document Formatting Preferences.md`: formatting rules that apply to all documents in this repo; read this before writing the daily note.
 
 ## Installation
 
@@ -27,11 +27,11 @@ description: Creates a daily note in the Northforge repo summarising what was wo
 4. Check if `Logs/daily/YYYY-MM-DD.md` already exists.
    - If it **does not exist**: create it.
    - If it **already exists**: read the existing content, then append only information not already captured. Do not rewrite or duplicate existing entries.
-5. Do not include meeting notes — those go in `Logs/meetings/YYYY-MM-DD-topic.md`.
+5. Do not include meeting notes: those go in `Logs/meetings/YYYY-MM-DD-topic.md`.
 
 ## Format
 
-- No fixed headings — use headings only when needed to group distinct areas of work for fast scanning
+- No fixed headings: use headings only when needed to group distinct areas of work for fast scanning
 - Bullet points, factual and brief
 - If there is only one area of work, no heading is needed
 
@@ -40,7 +40,7 @@ description: Creates a daily note in the Northforge repo summarising what was wo
 Focus on intentional work. Filter out:
 - Obsidian-git auto-backups (vault backup commits)
 - Config file tweaks (`.obsidian/`, `.json` settings) unless they represent a deliberate decision
-- File-by-file breakdowns — summarise what changed at the concept level, not the file level
+- File-by-file breakdowns: summarise what changed at the concept level, not the file level
 - Uncommitted changes to trivial files
 
 Include:
@@ -52,5 +52,5 @@ Include:
 - Derive content from git history; do not invent or assume work that isn't reflected there
 - If nothing meaningful was committed today, note that briefly
 - Do not duplicate content that belongs in a meeting note
-- Never overwrite an existing daily note — only append new information
+- Never overwrite an existing daily note: only append new information
 ```
